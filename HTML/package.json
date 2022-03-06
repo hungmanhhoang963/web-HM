@@ -1,0 +1,15 @@
+{
+  "name": "hmshop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "sass .//sass//style.scss HTML/style.css --watch"
+  },
+  "author": "Hoang Hung Manh",
+  "license": "ISC",
+  "dependencies": {
+    "aos": "^2.3.4"
+  }
+}

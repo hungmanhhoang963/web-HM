@@ -1,0 +1,235 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@700&family=Rubik:ital@1&display=swap");
+button, button:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.font-raleway {
+  font-family: "Raleway", cursive;
+}
+
+.font-roboto {
+  font-family: "Roboto", cursive;
+}
+
+.font-rubik {
+  font-family: "Rubik", cursive;
+}
+
+.font-size-12 {
+  font-size: 12px;
+}
+
+.font-size-14 {
+  font-size: 14px;
+}
+
+.font-size-16 {
+  font-size: 16px;
+}
+
+.font-size-20 {
+  font-size: 20px;
+}
+
+/* Color Template  */
+.color-primary {
+  color: #003859;
+}
+
+.color-primary-bg {
+  background: #003859;
+}
+
+.color-second {
+  color: #00A5C4;
+}
+
+.color-second-bg {
+  background: #00A5C4;
+}
+
+.color-yellow {
+  color: #FFD289;
+}
+
+.color-yellow-bg {
+  background: #FFD289;
+}
+
+.color-green {
+  color: rgba(0, 128, 0, 0.4);
+}
+
+.color-green-bg {
+  background: rgba(0, 128, 0, 0.4);
+}
+
+.color-purple {
+  color: #A314FC;
+}
+
+.color-purple-bg {
+  background: #A314FC;
+}
+
+.color-red {
+  color: #FF0000;
+}
+
+.color-red-bg {
+  background: #FF0000;
+}
+
+#top-hot .owl-carousel .item .product a {
+  overflow: hidden;
+}
+#top-hot .owl-carousel .item .product img {
+  transition: transform 0.5s ease;
+}
+#top-hot .owl-carousel .item .product img:hover {
+  transform: scale(1.1);
+}
+#top-hot .owl-carousel .owl-nav button {
+  position: absolute;
+  top: 30%;
+  outline: none;
+}
+#top-hot .owl-carousel .owl-nav button.owl-prev {
+  left: 0;
+}
+#top-hot .owl-carousel .owl-nav button.owl-prev span,
+#top-hot .owl-carousel .owl-nav button.owl-next span {
+  font-size: 35px;
+  color: #003859;
+  padding: 0 1rem;
+}
+#top-hot .owl-carousel .owl-nav button.owl-prev span {
+  margin-left: -4rem;
+}
+#top-hot .owl-carousel .owl-nav button.owl-next {
+  right: 0;
+}
+#top-hot .owl-carousel .owl-nav button.owl-next span {
+  margin-right: -4rem;
+}
+
+#special-price .grid .grid-item {
+  margin-right: 1.2rem;
+  margin-top: 1rem;
+}
+
+#top-hot .item {
+  position: relative;
+  overflow: hidden;
+}
+#top-hot .image-wrapper {
+  position: absolute;
+  top: 0;
+  right: -100%;
+  display: inline-block;
+  transition: 0.3s;
+  width: 100%;
+}
+#top-hot .item:hover .image-wrapper {
+  right: 0%;
+}
+
+#special-price .grid-item {
+  position: relative;
+  overflow: hidden;
+}
+#special-price .image-wrapper {
+  position: absolute;
+  top: 0;
+  right: -100%;
+  display: inline-block;
+  transition: 0.3s;
+  width: 100%;
+  height: 100%;
+}
+#special-price .image-wrapper img {
+  max-width: 100%;
+  max-height: 100%;
+}
+#special-price .grid-item:hover .image-wrapper {
+  right: 0%;
+}
+
+
+#snackbar {
+
+  /* Hidden by default. Visible on click */
+  min-width: 400px;
+  /* Set a default minimum width */
+  margin-left: -125px;
+  /* Divide value of min-width by 2 */
+  background-color: rgba(0, 128, 0, 0.4);
+  /* Black background color */
+  color: #fff;
+  /* White text color */
+  text-align: center;
+  /* Centered text */
+  border-radius: 2px;
+  /* Rounded borders */
+  padding: 16px;
+  /* Padding */
+  position: fixed;
+  /* Sit on top of the screen */
+  z-index: 1;
+  /* Add a z-index if needed */
+  left: 84%;
+  /* Center the snackbar */
+  bottom: 78%;
+  /* 30px from the bottom */
+  font-size: 16px;
+}
+
+#snackbar.show {
+  visibility: visible;
+  -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+  animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+@-webkit-keyframes fadein {
+  from {
+    right: 0;
+    opacity: 0;
+  }
+  to {
+    right: 40px;
+    opacity: 1;
+  }
+}
+@keyframes fadein {
+  from {
+    right: 0;
+    opacity: 0;
+  }
+  to {
+    right: 40px;
+    opacity: 1;
+  }
+}
+@-webkit-keyframes fadeout {
+  from {
+    right: 40px;
+    opacity: 1;
+  }
+  to {
+    right: 0;
+    opacity: 0;
+  }
+}
+@keyframes fadeout {
+  from {
+    right: 40px;
+    opacity: 1;
+  }
+  to {
+    right: 0;
+    opacity: 0;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
